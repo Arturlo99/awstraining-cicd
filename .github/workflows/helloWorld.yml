@@ -44,6 +44,6 @@ jobs:
     steps:
       - name: "Echo length of the last name"
         run: |
-          echo "The length of your last name is: ${{ needs.print_last_name.outputs.last_name_lenght }}"
+          echo "The length of your last name is: ${{ needs.print_last_name.outputs.last_name_length }}"
       
       
